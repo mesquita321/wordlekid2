@@ -138,7 +138,6 @@ function renderGameStatus() {
   return (
     <>
     <main className='main'>
-        {/* <img src="src/assets/Image Remove Background.png" alt="Martim Costa" className='martim-costa' /> */}
         <h1 className='game-title'>A viagem do Martim Costa    <img src={photo} alt="Martim Costa" className='martim-costa' /></h1> 
         <p className='game-description'>
           Vais numa viagem para o Algarve. Para chegarem todos, tens de acertar a palavra secreta, letra a letra.
@@ -167,5 +166,7 @@ function renderGameStatus() {
     </>
   )
 }
+
+// Teste
 
 export default App
