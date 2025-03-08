@@ -4,7 +4,7 @@ import { fam } from './components/fam'
 import clsx from 'clsx'
 import { PalavraSecreta, Despedida } from './components/despedida'
 import Confetti from 'react-confetti'
-
+import photo from './assets/photo.png'
 
 
 
@@ -139,7 +139,7 @@ function renderGameStatus() {
     <>
     <main className='main'>
         {/* <img src="src/assets/Image Remove Background.png" alt="Martim Costa" className='martim-costa' /> */}
-        <h1 className='game-title'>A viagem do Martim Costa    <img src="src/assets/photo.png" alt="Martim Costa" className='martim-costa' /></h1> 
+        <h1 className='game-title'>A viagem do Martim Costa    <img src={photo} alt="Martim Costa" className='martim-costa' /></h1> 
         <p className='game-description'>
           Vais numa viagem para o Algarve. Para chegarem todos, tens de acertar a palavra secreta, letra a letra.
           Por cada letra falhada, um elemento da família Vieira fica apeado!
